@@ -1,4 +1,4 @@
-# Console Color Library
+# Console Styler Library
 
 A simple and flexible library for coloring text and backgrounds in the console using ANSI escape codes. This library allows developers to easily add color and style to their console output, enhancing the user experience.
 
