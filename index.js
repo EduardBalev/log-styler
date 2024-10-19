@@ -1,5 +1,5 @@
 /**
- * Console Styler Library
+ * Log Styler Library
  * Provides methods to color text and backgrounds in the console.
  */
 

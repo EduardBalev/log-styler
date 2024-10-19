@@ -1,4 +1,4 @@
-# Console Styler Library
+# Log Styler Library
 
 A simple and flexible library for coloring text and backgrounds in the console using ANSI escape codes. This library allows developers to easily add color and style to their console output, enhancing the user experience.
 
@@ -26,14 +26,14 @@ A simple and flexible library for coloring text and backgrounds in the console u
 You can install the library via npm. Run the following command:
 
 ```bash
-npm install сonsole-styler
+npm install log-styler
 ```
 
 ## Usage
 To use the library, require it in your JavaScript file:
 
 ```js
-const { colorText, bgColorText, colorize } = require('сonsole-styler');
+const { colorText, bgColorText, colorize } = require('log-styler');
 ```
 
 ## API Reference
@@ -76,7 +76,7 @@ Here are some examples demonstrating how to use the library:
 ### Basic Color Usage
 
 ```js
-const { colorText } = require('сonsole-styler');
+const { colorText } = require('log-styler');
 
 console.log(colorText('This is red text', 'red'));
 console.log(colorText('This is bold green text', 'green', 'bold'));
@@ -86,7 +86,7 @@ console.log(colorText('This is italic blue text', 'blue', 'italic'));
 ### Background Color Usage
 
 ```js
-const { bgColorText } = require('сonsole-styler');
+const { bgColorText } = require('log-styler');
 
 console.log(bgColorText('This text has a blue background', 'blue'));
 console.log(bgColorText('This text has a yellow background', 'yellow'));
@@ -95,7 +95,7 @@ console.log(bgColorText('This text has a yellow background', 'yellow'));
 ### Using `colorize`
 
 ```js
-const { colorize } = require('сonsole-styler');
+const { colorize } = require('log-styler');
 
 console.log(colorize('This is bright yellow text on a black background', { color: 'brightYellow', bgColor: 'black', style: 'bold' }));
 console.log(colorize('This is strikethrough text', { color: 'cyan', style: 'strikethrough' }));

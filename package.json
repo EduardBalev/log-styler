@@ -1,11 +1,11 @@
 {
-  "name": "console-styler",
+  "name": "log-styler",
   "version": "1.0.0",
   "description": "A simple library for coloring text in the console.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/EduardBalev/console-styler"
+    "url": "https://github.com/EduardBalev/log-styler"
   },
   "keywords": [
     "console",
