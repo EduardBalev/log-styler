@@ -26,14 +26,14 @@ A simple and flexible library for coloring text and backgrounds in the console u
 You can install the library via npm. Run the following command:
 
 ```bash
-npm install log-styler
+npm install @simple_js/log-styler
 ```
 
 ## Usage
 To use the library, require it in your JavaScript file:
 
 ```js
-const { colorText, bgColorText, colorize } = require('log-styler');
+const { colorText, bgColorText, colorize } = require('@simple_js/log-styler');
 ```
 
 ## API Reference
@@ -76,7 +76,7 @@ Here are some examples demonstrating how to use the library:
 ### Basic Color Usage
 
 ```js
-const { colorText } = require('log-styler');
+const { colorText } = require('@simple_js/log-styler');
 
 console.log(colorText('This is red text', 'red'));
 console.log(colorText('This is bold green text', 'green', 'bold'));
@@ -86,7 +86,7 @@ console.log(colorText('This is italic blue text', 'blue', 'italic'));
 ### Background Color Usage
 
 ```js
-const { bgColorText } = require('log-styler');
+const { bgColorText } = require('@simple_js/log-styler');
 
 console.log(bgColorText('This text has a blue background', 'blue'));
 console.log(bgColorText('This text has a yellow background', 'yellow'));
@@ -95,7 +95,7 @@ console.log(bgColorText('This text has a yellow background', 'yellow'));
 ### Using `colorize`
 
 ```js
-const { colorize } = require('log-styler');
+const { colorize } = require('@simple_js/log-styler');
 
 console.log(colorize('This is bright yellow text on a black background', { color: 'brightYellow', bgColor: 'black', style: 'bold' }));
 console.log(colorize('This is strikethrough text', { color: 'cyan', style: 'strikethrough' }));

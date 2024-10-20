@@ -1,6 +1,6 @@
 {
   "name": "@simple_js/log-styler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library for coloring text in the console.",
   "main": "index.js",
   "repository": {
